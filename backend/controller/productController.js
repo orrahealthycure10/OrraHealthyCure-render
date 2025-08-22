@@ -297,7 +297,7 @@ export const getAdminProducts = handleAsyncError(async (req, res, next) => {
 // import Product from '../models/productModel.js';
 // import handleAsyncError from '../middleware/handleAsyncError.js';
 // import APIFunctionality from '../utils/apiFunctionality.js';
-// import HandleError from '../utils/HandleError.js';
+// import HandleError from '../utils/handleError.js';
 
 // // http://localhost:8000/api/v1/product/687b918a3a9cdf194ebafe40?keyword=shirt
 

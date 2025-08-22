@@ -1,6 +1,6 @@
 import handleAsyncError from "../middleware/handleAsyncError.js";
 import crypto from 'crypto';
-import HandleError from "../utils/HandleError.js";
+import HandleError from "../utils/handleError.js";
 import User from "../models/userModel.js";
 import { sendToken } from "../utils/jwtToken.js";
 import { sendEmail } from "../utils/sendEmail.js";

@@ -1,6 +1,6 @@
 import Order from '../models/orderModel.js';
 import Product from '../models/productModel.js';
-import HandleError from "../utils/HandleError.js";
+import HandleError from "../utils/handleError.js";
 import handleAsyncError from '../middleware/handleAsyncError.js';
 
 // Create New Order

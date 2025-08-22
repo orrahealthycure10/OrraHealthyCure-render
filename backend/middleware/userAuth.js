@@ -1,7 +1,7 @@
 import handleAsyncError from "./handleAsyncError.js";
 import jwt from 'jsonwebtoken';
 import User from '../models/userModel.js';
-import HandleError from "../utils/HandleError.js";
+import HandleError from "../utils/handleError.js";
 
 export const verifyUserAuth = handleAsyncError(async (req, res, next) => {
     const { token } = req.cookies;
