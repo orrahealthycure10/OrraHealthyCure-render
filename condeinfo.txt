@@ -1,0 +1,46 @@
+node -v
+npm -v
+we have node so we dont need to install
+
+downloaded mongodb from official website
+MongoDB Compass
+Mongosh (Shell)
+
+npm init -y
+
+............BACKEND.........(npm run start)........BACKEND..............
+npm i express dotenv
+npm i nodemon
+npm run start (backend run)
+npm i mongoose
+
+npm i validator (userModels.js [schema])
+npm i bcryptjs  (password hashing)
+npm i jsonweb
+npm i cookie-parser
+npm i crypto (random bites and numbers for password secturity)
+npm i nodemailer ( to send email to user for password reset)
+npm i express-fileupload cloudinary
+
+
+
+
+.............FRONTEND.......(npm run dev)..........FRONTEND................
+
+npm create vite@latest .
+npm install
+npm run dev (frontend run)
+npm i react-router-dom
+npm i @mui/icons-material @mui/material @emotion/react @emotion/styled @mui/styled-engine
+npm i @reduxjs/toolkit (redux toolkit)  FOR STATE MANAGEMENT
+npm i react-redux
+npm i axios
+npm i react-toastify
+npm i country-state-city
+
+
+
+
+....................notes to write down in copy...................
+
+time stamp: 7:08:14 (write the same route check this part again)

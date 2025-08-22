@@ -1,0 +1,7 @@
+/node_modules
+/buginfo.txt
+/chnages.html
+/codeinfo.txt
+/frontend/node_modules
+/frontend/dist
+/backend/config/config.env

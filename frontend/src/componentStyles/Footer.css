@@ -1,0 +1,382 @@
+/* === Base Footer Styles === */
+.footer {
+  width: 100%;
+  background: #e4e1e1;
+  font-family: 'Segoe UI', sans-serif;
+  color: #000;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 280px;
+}
+
+.footer-logo {
+  width: 160px;
+  margin-bottom: 20px;
+}
+
+.footer-left address {
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.contact-info p {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+  font-weight: 600;
+}
+
+.footer-links {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  min-width: 300px;
+}
+
+.link-column p {
+  font-weight: 700;
+  font-size: 17px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.footer-right {
+  flex: 1.5;
+  min-width: 280px;
+}
+
+.newsletter p {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 14px;
+}
+
+.email-input {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.email-input input {
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  flex: 1;
+}
+
+.email-input button {
+  background-color: #75c6bf;
+  border: none;
+  color: white;
+  width: 60px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* === Social Media Icons === */
+.social-icons {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.social-icons p {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+.social-icons .icons {
+  display: flex;
+  gap: 20px;
+  font-size: 26px;
+}
+
+/* === Footer Bottom === */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 35px 0 15px;
+  border-top: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.footer-bottom img {
+  height: 42px;
+  margin-right: 12px;
+}
+
+/* === Footer Legal Bar === */
+.footer-legal {
+  background: #043f3e;
+  color: #fff;
+  text-align: center;
+  padding: 16px 0;
+  font-size: 15px;
+  width: 100vw;
+  font-weight: 500;
+  margin-left: calc(-50vw + 50%);
+}
+
+.footer-policies {
+  margin-bottom: 6px;
+}
+
+.footer-policies a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.footer-policies a:hover {
+  text-decoration: underline;
+}
+
+/* === Responsive Media Queries === */
+
+/* Mobile (≤ 480px) */
+@media (max-width: 480px) {
+  .footer {
+    padding: 40px 20px 0;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-links,
+  .footer-right {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer-logo {
+    width: 130px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    font-size: 15px;
+  }
+}
+
+/* Tablet (481px – 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .footer {
+    padding: 50px 30px 0;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-links {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+/* Tablet (768px – 990px) */
+@media (min-width: 768px) and (max-width: 990px) {
+  .footer {
+    padding: 55px 6vw 0;
+  }
+
+  .footer-top,
+  .footer-links {
+    gap: 40px;
+  }
+}
+
+/* Laptop (769px – 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer {
+    padding: 55px 6vw 0;
+  }
+
+  .footer-top,
+  .footer-links {
+    gap: 40px;
+  }
+}
+
+/* Desktop (≥ 1025px) */
+@media (min-width: 1025px) {
+  .footer {
+    padding: 60px 6vw 0;
+  }
+
+  .footer-top,
+  .footer-links {
+    gap: 50px;
+  }
+}
+
+/* === Social Buttons Styling (Uiverse.io) === */
+.container {
+  display: flex;
+}
+
+/* Generic Rounded Social Button */
+.Btn {
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.Btn:hover {
+  width: 110px;
+  border-radius: 30px;
+}
+
+.Btn:hover .text {
+  opacity: 1;
+}
+
+.Btn:hover .svgIcon {
+  opacity: 0;
+}
+
+.text {
+  position: absolute;
+  color: #fff;
+  width: 120px;
+  font-weight: 600;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.svgIcon {
+  transition: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+/* Instagram Button Gradient */
+.instagram {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+/* YouTube Button */
+.youtube {
+  background-color: #ff0000;
+}
+
+/* Twitter Button */
+.twitter {
+  background-color: #1da1f2;
+}
+
+/* === Facebook Button (Uiverse.io by Yaya12085) === */
+.Btnface {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  background-color: #0163e0;
+  margin-left: 12px;
+}
+
+.Btnface:hover {
+  width: 150px;
+  border-radius: 40px;
+}
+
+.Btnface:active {
+  transform: translate(2px, 2px);
+}
+
+.sign {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.sign svg {
+  width: 30px;
+}
+
+.sign svg path {
+  fill: white;
+}
+
+.textf {
+  position: absolute;
+  right: 0;
+  width: 0;
+  opacity: 0;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.Btnface:hover .sign {
+  width: 30%;
+  padding-left: 10px;
+}
+
+.Btnface:hover .textf {
+  opacity: 1;
+  width: 70%;
+  padding-right: 10px;
+}

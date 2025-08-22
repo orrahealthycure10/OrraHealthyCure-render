@@ -1,0 +1,132 @@
+.product_id {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-grid {
+  display: grid;
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+
+.add-to-cart {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--primary-main);
+  color: var(--text-light);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.rating_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Desktop - 4 columns */
+@media (min-width: 1200px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Tablet landscape - 3 columns */
+@media (min-width: 998px) and (max-width: 1529px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Tablet portrait - 2 columns */
+@media (min-width: 768px) and (max-width: 899px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small laptop/tablet - 3 columns */
+@media (min-width: 850px) and (max-width: 990px) {
+  .product-card {
+    width: 100%;
+    max-width: 370px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+}
+
+/* Mobile and small tablets - 2 columns */
+@media (max-width: 720px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+  .product-card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.product-card {
+  color: var(--text-primary);
+  border-radius: 10px;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.product-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  background-color: var(--korean-hover);
+}
+
+.product-image-card {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  max-height: 200px;
+}
+
+.product-details {
+  padding: 1rem;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--bg-primary);
+}
+
+.product-description {
+  font-size: 0.9rem;
+  color: var(--bg-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.home-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--primary-main);
+  margin-bottom: 1rem;
+}
+
+.add-to-cart:hover {
+  background-color: var(--primary-dark);
+}

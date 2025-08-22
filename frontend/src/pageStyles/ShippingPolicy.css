@@ -1,0 +1,57 @@
+.shipping-page {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fdfdfd, #f0f4ff);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+}
+
+.shipping-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2a2a2a;
+  border-bottom: 2px solid #d0d7e5;
+  padding-bottom: 10px;
+}
+
+.shipping-content h2 {
+  font-size: 1.4rem;
+  margin-top: 30px;
+  color: #2b3a67;
+  border-left: 5px solid #3c64f4;
+  padding-left: 12px;
+  background-color: #eaf0ff;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 4px;
+}
+
+.shipping-content p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-top: 10px;
+  color: #3a3a3a;
+  background-color: #ffffffd9;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
+.shipping-content a {
+  color: #1a4ed8;
+  text-decoration: underline;
+}
+.home {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.home:hover {
+  text-decoration: underline;
+}

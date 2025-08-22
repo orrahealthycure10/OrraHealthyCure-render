@@ -1,0 +1,58 @@
+.Btnn {
+  width: 45px;
+  height: 45px;
+  display: grid;
+  place-items: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.svgContainerr {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background-color: black;
+  backdrop-filter: blur(0px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.svgIconn {
+  fill: white; /* Icon color */
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s;
+}
+
+.BGG {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  z-index: -1;
+  border-radius: 10px;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.Btnn:hover .BGG {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.Btnn:hover .svgContainerr {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+}
+
+.Btnn:hover .svgIconn {
+  transform: scale(1.1);
+}
