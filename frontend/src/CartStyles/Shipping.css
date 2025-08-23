@@ -97,3 +97,33 @@
     background: var(--primary-dark);
     border-radius: 4px;
    }
+
+/* ✅ Responsive layout */
+@media (max-width: 440px) {
+  .shipping-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .shipping-form-group {
+    flex: 1 1 calc(50% - 1rem); /* 2 inputs per row */
+    max-width: 300px;           /* prevents overly wide inputs */
+  }
+
+  .shipping-submit-btnz {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+/* Add to Shipping.css */
+.mobile-stack {
+  display: flex;
+  flex-direction: row; /* stack one under another */
+  align-items: center;    /* center horizontally */
+  justify-content: center; /* center vertically if parent has height */
+  gap: 2rem; /* space between inputs */
+  width: 100%; /* full width so centering works well */
+  padding-left:42px;
+}

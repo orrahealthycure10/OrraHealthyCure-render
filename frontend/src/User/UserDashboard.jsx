@@ -63,7 +63,7 @@ function UserDashboard({ user }) {
     return (
         <>
             <div className={`overlay ${menuVisible ? 'show' : ''}`} onClick={toggleMenu}></div>
-            <div className="dashboard-container">
+            {/* <div className="dashboard-container"> */}
                 <div className="profile-header" onClick={toggleMenu}>
                     <img src={user.avatar.url ? user.avatar.url : './images/profile.png'} alt="Profile Picture" className='profile-avatar' />
                     <span className="profile-name profile-name-responsive">{user.name || 'User'}</span>
@@ -73,7 +73,7 @@ function UserDashboard({ user }) {
                         <button key={item.name} className={`menu-option-btn ${item.isCart ? (cartItems.length > 0 ? 'cart-not-empty' : '') : ''}`} onClick={item.funcName}>{item.name}</button>
                     ))}
                 </div>)}
-            </div>
+            {/* </div> */}
         </>
     )
 }

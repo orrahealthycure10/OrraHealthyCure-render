@@ -125,7 +125,6 @@ function Home() {
                 }
               </div>
             </div>
-            <img src={bannerh} alt="bannerh" className='bannerh' />
             <Footer />
 
           </>

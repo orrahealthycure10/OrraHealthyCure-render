@@ -86,4 +86,47 @@
     font-size: 18px;
     color: #555;
   }
-  
+
+  @media (max-width: 440px) {
+  .product-list-container {
+    padding: 10px;
+    margin-top: 60px; /* reduce top margin */
+  }
+
+  .product-list-title {
+    font-size: 18px; /* smaller heading */
+    text-align: center;
+  }
+
+  .product-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto; /* allow horizontal scroll if needed */
+    font-size: 12px;
+  }
+
+  .product-table th,
+  .product-table td {
+    padding: 6px; /* tighter spacing */
+    white-space: nowrap; /* prevent text from breaking awkwardly */
+  }
+
+  .admin-product-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .action-link {
+    font-size: 12px;
+    margin-right: 6px;
+  }
+
+  .action-icon {
+    padding: 3px;
+  }
+
+  .no-admin-products {
+    font-size: 14px;
+    padding: 15px;
+  }
+}

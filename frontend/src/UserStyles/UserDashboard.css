@@ -149,7 +149,7 @@
 
     .profile-header {
         top: 5px;
-        right: 180px;
+        right: 190px;
     }
     
     .profile-avatar {
@@ -161,12 +161,14 @@
     
      
   }
-  @media (max-width: 400px) {
+  @media (max-width: 480px) {
   
 
     .profile-header {
-        top: 5px;
+        top: 6px;
         right: 185px;
+        transform: translateX(+7%) translateY(+25%);
+
     }
     
     .profile-avatar {

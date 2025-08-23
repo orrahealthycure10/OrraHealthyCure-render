@@ -457,6 +457,11 @@ button:active {
   z-index: 999;
 }
 
+@media (max-width: 425px) {
+  .navbar-hamburger {
+    transform: translateX(-50%) translateY(+50%);
+  }
+}
 @media (max-width: 350px) {
   .navbar-hamburger {
     transform: translateX(-300%) translateY(+160%);
