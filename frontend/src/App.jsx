@@ -90,7 +90,7 @@ function App() {
 
       </Routes>
       {isAuthenticated && <UserDashboard user={user} />}
-        <Footer />
+        {/* <Footer /> */}
 
     </Router>
   )

@@ -161,7 +161,7 @@ export default function Footer() {
         <div className="footer-policies">
           <a href="/privacy-policy">Privacy Policy</a> |
           <a href="/terms">Terms and Conditions</a> |
-          <a href="/shipping-policy">Shipping Policy</a>
+          <a href="/shipping-policy">Shipping-Policy</a>
         </div>
       </div>
     </footer>
