@@ -102,10 +102,10 @@ const Contact = () => {
         </div>
 
       <div className="contact-extra-info">
-        <p><strong>For openings and collaboration:</strong><br />careers@orra.in</p>
-        <p><strong>For bulk orders and business:</strong><br />sales@orra.in</p>
-        <p><strong>Enquiry:</strong> info@orra.in<br />
-        <strong>Toll Free No:</strong> 1800 274 0-0-0</p>
+        <p><strong>For openings and collaboration:</strong><br />contact@orrahealthycure.com</p>
+        <p><strong>For bulk orders and business:</strong><br />contact@orrahealthycure.com</p>
+        <p><strong>Enquiry:</strong> contact@orrahealthycure.com<br />
+        <strong>Toll Free No:</strong> 9484700007</p>
       </div>
       </form>
     </div>

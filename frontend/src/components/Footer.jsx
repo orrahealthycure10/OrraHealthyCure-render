@@ -38,9 +38,7 @@ export default function Footer() {
         {/* Middle Section */}
         <div className="footer-links">
           <div className="link-column">
-            <p>SHOP ALL</p>
-            <p>MY ACCOUNT</p>
-            <p>FAQS</p>
+           
 
             <div className="footer-bottom">
               <div className="available-on">
