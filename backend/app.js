@@ -34,7 +34,7 @@ app.use("/api/v1", guestOrder);
 app.use(express.static(path.join(__dirname, "../frontend/dist")));
 
 // React Router fallback — must be after static, after API, before errors
-app.get(".*", (req, res) => {
+app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "../frontend/dist/index.html"));
 });
 
