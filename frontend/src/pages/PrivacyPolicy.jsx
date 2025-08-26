@@ -5,6 +5,8 @@ import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 
 function PrivacyPolicy() {
+  // console.log("PrivacyPolicy component loaded");
+  // debugger;  // <-- this will pause execution if DevTools is open
   return (
     <>
       <Navbar />
