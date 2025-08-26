@@ -32,6 +32,7 @@ import UsersList from './Admin/UsersList';
 import UpdateRole from './Admin/UpdateRole';
 import OrdersList from './Admin/OrdersList';
 import UpdateOrder from './Admin/UpdateOrder';
+import Footer from './components/Footer';
 
 function App() {
   const { isAuthenticated, user } = useSelector(state => state.user);
@@ -89,6 +90,7 @@ function App() {
 
       </Routes>
       {isAuthenticated && <UserDashboard user={user} />}
+        <Footer />
 
     </Router>
   )
