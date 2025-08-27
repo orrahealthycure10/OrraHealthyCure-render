@@ -327,7 +327,7 @@
     }
   }
   
-   @media (min-width: 300px) and (max-width: 770px) {
+   @media (min-width: 321px) and (max-width: 770px) {
   
     .product-detail-container{
         display: flex;
@@ -371,3 +371,187 @@
 }
 
    }
+
+@media (max-width: 320px) {
+  
+  .product-description {
+    text-align: center;
+    font-size: 12px;       /* smaller font for readability */
+    line-height: 1.4;      
+    padding: 0 12px;       /* padding on left and right */
+    margin: 0 auto;
+    max-width: 95%;        /* keeps text away from screen edge */
+    word-wrap: break-word;
+  }
+
+  .product-price,
+  .product-rating,
+  .stock-status {
+    text-align: center;    /* keeps all details aligned */
+    padding: 0 12px;
+  }
+  .product-rating {
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;      /* center vertically if inline stars */
+    font-size: 14px;          /* control star/text size */
+    margin: 10px auto;        /* spacing top/bottom + center */
+    text-align: center;
+  }
+
+  /* If stars are an <i> or <svg>, resize them */
+  .product-rating i,
+  .product-rating svg {
+    font-size: 16px;   /* adjust star size */
+  }
+   .quantity-controls {
+    display: flex;
+    flex-direction: column;   /* stack label above controls */
+    align-items: center;      /* center horizontally */
+    margin: 12px auto;
+  }
+
+  .quantity-label {
+    margin-bottom: 6px;       /* space between label and row */
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .quantity-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quantity-button {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    border-radius: 6px;
+  }
+
+  .quantity-value {
+    width: 40px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 6px;
+    padding: 4px;
+  }
+ .add-to-cart-btn {
+  display: block;       /* make it a block element */
+  margin: 20px auto;    /* auto margin left/right will center it */
+  width: 50%;
+  padding: 12px 10px;
+  background: var(--border-color);
+  border: 1px solid var(--bg-primary);
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+  
+  .add-to-cart-btn:hover {
+    background: var(--bg-secondary);
+  }
+  /* Review Form */
+.review-form {
+  width: 100%;
+  max-width: 300px;         /* keeps it compact on small screens */
+  margin: 0 auto;           /* centers the form */
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.review-form h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.review-input {
+  width: 100%;
+  min-height: 80px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  resize: none;
+}
+
+.submit-review-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: var(--border-color);
+  border: none;
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-review-btn:hover {
+  background: var(--bg-secondary);
+}
+
+/* Reviews Container */
+.reviews-container {
+  max-width: 320px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.reviews-container h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.reviews-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.review-item {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.review-header {
+  margin-bottom: 5px;
+}
+
+.review-comment {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.review-name {
+  font-size: 12px;
+  color: #888;
+  font-style: italic;
+}
+
+.no-reviews {
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+}
+
+}

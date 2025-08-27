@@ -204,9 +204,11 @@ function ProductDetails() {
                         {product.stock > 0 && (<>
                             <div className="quantity-controls">
                                 <span className="quantity-label">Quantity:</span>
+                                  <div className="quantity-row">
                                 <button className="quantity-button" onClick={decreaseQuantity} >-</button>
                                 <input type="text" value={quantity} className="quantity-value" readOnly />
                                 <button className="quantity-button" onClick={increaseQuantity} >+</button>
+                                </div>
                             </div>
 
                             <button className="add-to-cart-btn" onClick={addToCart} disabled={cartLoading}>{cartLoading ? 'Adding' : 'Add to Cart'}</button>
