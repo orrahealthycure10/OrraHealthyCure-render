@@ -1,8 +1,9 @@
 .contact-wrapper {
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
   background-color: #f3f1ea;
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
+  padding-top:120px;
 }
 
 .contact-form-new {
@@ -79,7 +80,7 @@ textarea {
   justify-content: center;
 }
 
-button[type="submit"] {
+button[type="submit"] { 
   background-color: #a1be49;
   color: #fff;
   padding: 0.8rem 2rem;
@@ -88,17 +89,22 @@ button[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   transition: background 0.3s;
+  
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  align-items: center;       /* vertical center */
+  justify-content: center;   /* horizontal center */
+  gap: 0.5rem;               /* spacing between text and icon */
 }
 
 button[type="submit"]:hover {
   background-color: #8ea63d;
 }
 
-.send-icon {
+.send-icon { 
   font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-extra-info {

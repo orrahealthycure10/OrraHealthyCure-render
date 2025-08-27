@@ -45,6 +45,6 @@
 
 @media (max-width: 425px) {
   .search-icon {
-    transform: translateX(20%) translateY(+30%);
+    transform: translateX(20%) translateY(+40%);
   }
 }

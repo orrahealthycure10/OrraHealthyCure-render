@@ -34,19 +34,22 @@ const Contact = () => {
         <h2>CONTACT US</h2>
         <div className="form-row">
           <div className="form-group">
-            <label>Your name</label>
+            <label>Name</label>
             <input
               type="text"
               name="name"
+              placeholder="नाम"
+              required
               value={formData.name}
               onChange={handleChange}
             />
           </div>
           <div className="form-group">
-            <label>Your email address<span className="required">*</span></label>
+            <label>Email<span className="required">*</span></label>
             <input
               type="email"
               name="email"
+              placeholder="ईमेल"
               required
               value={formData.email}
               onChange={handleChange}
@@ -55,20 +58,22 @@ const Contact = () => {
         </div>
         <div className="form-row">
           <div className="form-group">
-            <label>Contact Number<span className="required">*</span></label>
+            <label>Phone<span className="required">*</span></label>
             <input
               type="tel"
               name="phone"
+              placeholder="नंबर"
               required
               value={formData.phone}
               onChange={handleChange}
             />
           </div>
           <div className="form-group">
-            <label>Order Number</label>
+            <label>Order No.</label>
             <input
               type="text"
               name="orderNumber"
+              placeholder="ऑर्डर नंबर"
               value={formData.orderNumber}
               onChange={handleChange}
             />
@@ -78,6 +83,7 @@ const Contact = () => {
           <label>Message...</label>
           <textarea
             name="message"
+            placeholder="संदेश"
             value={formData.message}
             onChange={handleChange}
           />
@@ -97,7 +103,7 @@ const Contact = () => {
 
         <div className="form-group full center">
           <button type="submit">
-            Send <span className="send-icon">✈️</span>
+            Submit <span className="send-icon"></span>
           </button>
         </div>
 
@@ -105,10 +111,11 @@ const Contact = () => {
         <p><strong>For openings and collaboration:</strong><br />contact@orrahealthycure.com</p>
         <p><strong>For bulk orders and business:</strong><br />contact@orrahealthycure.com</p>
         <p><strong>Enquiry:</strong> contact@orrahealthycure.com<br />
-        <strong>Toll Free No:</strong> 9484700007</p>
+        <strong>Contact :</strong> 9484700007</p>
       </div>
       </form>
     </div>
+    
     </>
   );
 };

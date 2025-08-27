@@ -19,7 +19,7 @@ function PrivacyPolicy() {
           <div className="static-content">
             <div className="content-block">
               <p><strong>Personal Information</strong></p>
-              <p><strong>OrraHealthyCure</strong> is a company incorporated and registered under the provisions of the Companies Act, 2013 and has its registered office at  Sector 18 , Ugyog Vihar , Phase 4 , Plot 68 , Gurugram, Haryana, India. OrraHealthyCure is the owner of the brand orra Ayurveda and the website of orra.in (“Website”). This Privacy Policy outlines OrraHealthyCure’s approach to data protection and privacy to fulfill its obligation under the applicable laws and regulations.</p>
+              <p><strong>OrraHealthyCure</strong> is a company incorporated and registered under the provisions of the Companies Act, 2013 and has its registered office at  Sector 18, Ugyog Vihar, Phase 4, Plot 68,Gurugram, Haryana, India. OrraHealthyCure is the brand and the website is ("orrahealthycure.com"). This Privacy Policy outlines OrraHealthyCure’s approach to data protection and privacy to fulfill its obligation under the applicable laws and regulations.</p>
               <p>Throughout this document, ‘we’, ‘us’, ‘our’, ‘ours’ refers to OrraHealthyCure. Wherever we have said ‘you’ or ‘your’, this means YOU.</p>
               <p>We are committed to treating data privacy seriously. This Privacy Policy provides the necessary details about how your data is collected and used by us on the Website. As a visitor/ customer to the Website, you are advised to please read the Privacy Policy carefully. By accessing the services provided by us on the Website, you agree to the collection and use of your data by us in the manner provided for under this Privacy Policy.</p>
 
@@ -45,7 +45,7 @@ function PrivacyPolicy() {
               <p>Our Website may contain links to other third party websites, for which we are not to be held responsible for the privacy practices of such third party websites, which we do not own, manage or control. Further, some web browsers have a “Do Not Track” feature. This feature lets you inform the concerned website that you have visited that you do not wish to have your online activity tracked on the said webiste. These features are not yet uniform across all browsers. Our Website is not currently set up to respond to those signals.</p>
 
               <p><strong>Consent</strong></p>
-              <p>By using our Website and/ or by providing your personal information while registering your account on our Website, you consent to the collection and use of the information you disclose on our Website in accordance with this Privacy Policy, including but not limited to your consent for sharing your information as per this Privacy Policy. By accessing and using the Website, you accept the terms of the Privacy Policy, Terms of Use, Shipping Policy as well as Cancellation Policy and further, consent to our use and disclosure of your personal information in any manner as described in the Privacy Policy.
+              <p>By using our Website and/or by providing your personal information while registering your account on our Website, you consent to the collection and use of the information you disclose on our Website in accordance with this Privacy Policy, including but not limited to your consent for sharing your information as per this Privacy Policy. By accessing and using the Website, you accept the terms of the Privacy Policy, Terms of Use, Shipping Policy as well as Cancellation Policy and further, consent to our use and disclosure of your personal information in any manner as described in the Privacy Policy.
 
               </p>
 
@@ -93,7 +93,7 @@ function PrivacyPolicy() {
               <p><strong>Contact us</strong></p>
               <p>Contact email address: contact@orrahealthycure.com</p>
               <p>Phone: 9484700007</p>
-              <p>Contact days: Monday to Sunday (10 AM to 8 PM)</p>
+              <p>Contact days: Monday to Sunday (10 AM to 6 PM)</p>
 
              
               <p>Email: contact@orrahealthycure.com</p>
