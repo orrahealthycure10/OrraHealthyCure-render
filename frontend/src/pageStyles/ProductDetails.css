@@ -569,6 +569,12 @@
   color: #555;
   margin-bottom: 8px;
 }
+.desc-cent{
+  max-width: 360px;
+  margin: 0 auto;          /* centers the whole block */
+  padding: 15px;
+  text-align: center;  
+}
 
 
 }

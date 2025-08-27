@@ -183,7 +183,9 @@ function ProductDetails() {
 
                     <div className="product-info">
                         <h2>{product.name}</h2>
+                        <div className="desc-cent" >
                         <p className="product-description">{product.description}</p>
+                        </div>
                         <p className="product-price">Price: ₹{product.price}</p>
 
                         <div className="product-rating">
