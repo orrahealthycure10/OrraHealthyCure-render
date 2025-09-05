@@ -11,7 +11,7 @@ function Cart() {
     const {cartItems}=useSelector(state=>state.cart)
     const subtotal=cartItems.reduce((acc,item)=>acc+item.price*item.quantity,0)
     const tax=subtotal*0.18
-    const shippingCharges=subtotal>500?0:50
+    const shippingCharges=subtotal>500?0:0
     // const total=subtotal+tax+shippingCharges;
     const total = (parseFloat(subtotal) + parseFloat(tax) + shippingCharges).toFixed(2);
 

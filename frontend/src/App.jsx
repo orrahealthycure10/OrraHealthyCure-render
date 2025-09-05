@@ -33,6 +33,8 @@ import UpdateRole from './Admin/UpdateRole';
 import OrdersList from './Admin/OrdersList';
 import UpdateOrder from './Admin/UpdateOrder';
 import Footer from './components/Footer';
+import PaymentSuccess from './Cart/PaymentSuccess';
+import PaymentFailure from './Cart/PaymentFailure';
 
 function App() {
   const { isAuthenticated, user } = useSelector(state => state.user);
@@ -67,6 +69,11 @@ function App() {
 
         {/* <Route path="/process/payment" element={<ProtectedRoute element={<Payment />} />} /> */}
         <Route path="/process/payment" element={<Payment />} />
+        <Route path="/paymentSuccess" element={<PaymentSuccess />} />
+        <Route path="/paymentFailure" element={<PaymentFailure />} />
+
+
+
 
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsAndConditions />} />
@@ -90,7 +97,7 @@ function App() {
 
       </Routes>
       {isAuthenticated && <UserDashboard user={user} />}
-        {/* <Footer /> */}
+      {/* <Footer /> */}
 
     </Router>
   )

@@ -235,3 +235,21 @@
     margin-bottom: 10px;
   background-color: #e6fff3;
 }
+
+@media (min-width: 320px) and (max-width: 500px) {
+ .bottom-deco {
+  position: absolute;
+  width: 90px;
+  transform: translate(35%, 0.5%);
+}
+.juice {
+  bottom: 0;
+  right: 6%;
+}
+.philosophy-content {
+  transform: translate(5%, -30%);
+}
+.about-us-wrapper {
+padding-top: 50px;
+}
+}

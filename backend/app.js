@@ -10,6 +10,7 @@ import contactRoute from './routes/contactRoute.js';
 import guestOrder from './routes/guestOrderRoutes.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import payuRoutes from "./routes/paymentRoutes.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -27,6 +28,9 @@ app.use("/api/v1", user);
 app.use("/api/v1", order);
 app.use("/api/v1/contact", contactRoute);
 app.use("/api/v1", guestOrder);
+
+// Payment Gateway Routes
+app.use("/api/v1", payuRoutes);
 
 // -------------------------
 // Serve Frontend (React build)

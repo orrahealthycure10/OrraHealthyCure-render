@@ -79,3 +79,13 @@
     width: 100%;
   }
 }
+
+@media (min-width: 320px) and (max-width: 658px){
+  .products-layout{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+}

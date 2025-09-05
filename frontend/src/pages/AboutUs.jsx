@@ -1,14 +1,12 @@
 import React from 'react';
 import '../pageStyles/AboutUs.css';
-
 import nature from '../assets/nature-is-good-seal.webp';
 import natureis from '../assets/nature-is.webp';
 import shortcut from '../assets/no-shortcuts.webp';
 import leafIcon from '../assets/leaf-icon.png';
 import RedVeg from '../assets/redveg.webp';
-import Orra from '../assets/logo.png';
+import Orra  from '../assets/logo.png';
 import juiceOrange from '../assets/juice.webp';
-import stampOrra from '../assets/orrastamp.png';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import DS from '../assets/dssir.jpg';
@@ -77,7 +75,7 @@ To empower every individual to take charge of their health through the purity of
                         </p>
                     </div>
                     <img src={juiceOrange} className="bottom-deco juice" alt="juice" />
-                    <img src={stampOrra} className="bottom-deco orange" alt="orange" />
+                    {/* <img src={stampOrra} className="bottom-deco orange" alt="orange" /> */}
                 </section>
 
             </div>

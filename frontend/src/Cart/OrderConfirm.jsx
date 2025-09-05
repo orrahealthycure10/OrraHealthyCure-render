@@ -14,7 +14,7 @@ function OrderConfirm() {
 
     const subtotal = cartItems.reduce((acc, item) => acc + item.price * item.quantity, 0);
     const tax = subtotal * 0.12; // Assuming 18% GST
-    const shippingCharges = subtotal > 500 ? 0 : 50;
+    const shippingCharges = subtotal > 500 ? 0 : 0;
     const total = subtotal  + shippingCharges;
     const navigate = useNavigate();
 

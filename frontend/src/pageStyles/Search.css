@@ -48,3 +48,12 @@
     transform: translateX(20%) translateY(+40%);
   }
 }
+
+//  WHEN YOU COME AGAIN TO FIX THIS  UNCOMMENT THIS CODE TO RESUME YOUR PROGRESS
+
+
+/* @media (max-width: 425px) {
+  .search-icon {
+    transform: translateX(20%) translateY(+40%);
+  }
+} */
