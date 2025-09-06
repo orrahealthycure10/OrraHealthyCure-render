@@ -8,6 +8,7 @@
   background: linear-gradient(135deg, #f8f9fa, #e9ecef);
 }
 
+
 .slider-images {
   display: flex;
   transition: transform 0.8s ease-in-out;
@@ -70,18 +71,23 @@
 @media (max-width: 1024px) {
   .image-slider-container {
     aspect-ratio: 25 / 8;
-  }
+    margin-top: 97px;
+   }
 }
 
 @media (max-width: 768px) {
   .image-slider-container {
     aspect-ratio: 31 / 10;
+    margin-top: 97px;
   }
 }
 
 @media (max-width: 500px) {
   .image-slider-container {
     aspect-ratio: 12.7 / 4;
+    /* padding-top:12px; */
+    margin-top: 97px
+
   }
 
   .slider-item img {
