@@ -40,7 +40,7 @@
 /* Dots */
 .slider-dots {
   position: absolute;
-  bottom: 15px;
+  bottom: 203px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
